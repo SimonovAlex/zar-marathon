@@ -1,8 +1,10 @@
 import style from "./style.module.css";
 
-const Layout = ({title, desc, id}) => {
+const Layout = ({title, desc, id, urlBg, colorBg}) => {
+    const styleInline = colorBg ? {backgroundColor: colorBg} : { backgroundImage: `url(${urlBg})` };
+
     return (
-        <section className={style.root} id={id}>
+        <section className={style.root} id={id} style={styleInline}>
             <div className={style.wrapper}>
                 <article>
                     <div className={style.wrapper}>
@@ -13,7 +15,7 @@ const Layout = ({title, desc, id}) => {
                         )}
                         <span className={style.separator} />
                     </div>
-                    <div className={style.desc + ' ' + style.full}>
+                    <div className={`${style.desc} ${style.full}`}>
                         {desc && (
                             <p>
                                 {desc}

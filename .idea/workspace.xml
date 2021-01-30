@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba630a6c-4522-45c2-9ef3-9a8232f303df" name="Default Changelist" comment="first home work">
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/style.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/style.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/Layout.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/style.module.css" afterDir="false" />
+    <list default="true" id="ba630a6c-4522-45c2-9ef3-9a8232f303df" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +24,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1nbOpHpN0Ly05tjowE5gQRTgadr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -90,6 +89,7 @@
       <updated>1611655504222</updated>
       <workItem from="1611655506253" duration="1757000" />
       <workItem from="1611855975611" duration="2200000" />
+      <workItem from="1612011843436" duration="3598000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1611656670995</created>
@@ -122,22 +122,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="583" y="29" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1611858169761" />
-    <state width="1877" height="261" key="GridCell.Tab.0.bottom" timestamp="1611858132186">
+    <state width="1877" height="261" key="GridCell.Tab.0.bottom" timestamp="1612011828669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611858132186" />
-    <state width="1877" height="261" key="GridCell.Tab.0.center" timestamp="1611858132184">
+    <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612011828669" />
+    <state width="1877" height="261" key="GridCell.Tab.0.center" timestamp="1612011828668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611858132184" />
-    <state width="1877" height="261" key="GridCell.Tab.0.left" timestamp="1611858132184">
+    <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612011828668" />
+    <state width="1877" height="261" key="GridCell.Tab.0.left" timestamp="1612011828668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611858132184" />
-    <state width="1877" height="261" key="GridCell.Tab.0.right" timestamp="1611858132185">
+    <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612011828668" />
+    <state width="1877" height="261" key="GridCell.Tab.0.right" timestamp="1612011828669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611858132185" />
+    <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612011828669" />
     <state x="552" y="250" key="Vcs.Push.Dialog.v2" timestamp="1611656836244">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -146,6 +146,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="610" y="136" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1611857734255" />
+    <state x="767" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612011745258">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="767" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612011745258" />
+    <state x="581" y="201" width="758" height="638" key="find.popup" timestamp="1612017970432">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="581" y="201" width="758" height="638" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612017970432" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1611857438844">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
